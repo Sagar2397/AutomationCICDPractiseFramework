@@ -27,12 +27,12 @@ public class ErrorValidations extends BaseTest {
 		
         landingpage.getErrorMessage();
         
-        Assert.assertEquals("Epic sadface: Username and password do not match any user in this service" , landingpage.getErrorMessage());
+        Assert.assertEquals("Epic sadface: Username and password do not match any user in this servi" , landingpage.getErrorMessage());
         
 
 	}
 
-	
+	//new comments are added
 	@Test
 	
 		public void ProductErrorValidation() throws IOException {
